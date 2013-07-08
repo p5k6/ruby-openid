@@ -3,10 +3,10 @@ require File.expand_path('../lib/openid/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name = 'ruby-openid'
-  s.author = 'JanRain, Inc'
-  s.email = 'openid@janrain.com'
-  s.homepage = 'https://github.com/openid/ruby-openid'
-  s.summary = 'A library for consuming and serving OpenID identities.'
+  s.author = 'Josh Stanfield; original auth: JanRain, Inc'
+  s.email = 'josh.stanfield@livingsocial.com'
+  s.homepage = 'https://github.com/p5k6/ruby-openid'
+  s.summary = 'A library for consuming and serving OpenID identities; LivingSocial port to fix google auth security issue'
   s.version = OpenID::VERSION
   s.licenses = ["Ruby", "Apache Software License 2.0"]
 
